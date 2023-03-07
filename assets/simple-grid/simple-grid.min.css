@@ -64,7 +64,7 @@ p {
   text-align: justify;
 }
 .container {
-  width: 90%;
+  width: 100%;
 }
 .row {
   position: relative;
@@ -135,7 +135,7 @@ p {
 }
 @media only screen and (min-width: 33.75em) {
   .container {
-    width: 80%;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 45em) {
@@ -181,7 +181,7 @@ p {
 }
 @media only screen and (min-width: 60em) {
   .container {
-    width: 75%;
-    max-width: 60rem;
+    width: 100%;
+    max-width: 95% !important;
   }
 }
