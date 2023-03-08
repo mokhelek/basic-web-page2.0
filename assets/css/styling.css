@@ -171,10 +171,11 @@ table{
 }
 #table-heading{
     background-color: rgba(0, 128, 255, 0.167) !important;
-    color:#d8d4ff;
     border: none !important;
 }
-
+#table-heading td h4{
+    color:rgba(220, 220, 220, 0.776);
+}
 
 /*   ########################################## Historical Places Section ##########################################   */
 
