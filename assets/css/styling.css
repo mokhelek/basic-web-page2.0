@@ -198,20 +198,21 @@ table{
 } */
 
 .grid-container1{
-    display:grid;
-    grid-template-columns: 1fr 1fr !important;
+    grid-template-areas: "col1 col2";
+    grid-template-columns: 60% 40% !important;
     gap: 10px;
 }
 
 .grid-container2{
-    display:grid;
-    grid-template-columns: 40% 60% !important;
+
+    grid-template-columns: 1fr 1fr !important;
     grid-template-areas: "col1 col2";
     gap: 10px;
 }
 
 .grid-container3{
-    display:grid;
+    /* display: grid; */
+    grid-template-areas: "col1 col2";
     grid-template-columns: 60% 40% !important;
     gap: 10px;
 
@@ -304,17 +305,48 @@ table{
         grid-template-columns: 1fr;
         margin-top: 20px;
       }
+
+      .grid-container1{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "col1 col2";
+    }
+
       .grid-container2{
         display:grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: "col2 col1";
     }
+
+    .grid-container3{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "col1 col2";
+    }
+
+
+    .grid-item1-1{
+        grid-area: col1;
+    }
+    .grid-item1-2{
+        grid-area: col2;
+    }
+
     .grid-item2-1{
         grid-area: col1;
     }
     .grid-item2-2{
         grid-area: col2;
     }
+
+    .grid-item3-1{
+        grid-area: col1;
+    }
+    .grid-item3-2{
+        grid-area: col2;
+    }
+
+
     #historic-place-image{
         width:100%;
     }
