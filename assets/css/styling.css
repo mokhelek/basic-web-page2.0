@@ -58,7 +58,7 @@ nav a:hover{
     color: #c5c5c5;
 }
 #web2:hover{
-    color:rgb(233, 88, 113);
+    color:rgb(233, 88, 113) !important;
     font-size: 1.2rem;
 }
 
@@ -98,6 +98,7 @@ nav a:hover{
 
 .intro-text-wrapper p {
   color: rgb(218, 218, 218);
+  line-height: normal !important;
 }
 
 #cta_button {
@@ -128,13 +129,10 @@ nav a:hover{
   padding: 2rem;
   overflow-x: hidden;
 }
-
-.grid-container-which-city {
-  display: grid;
-  grid-template-columns: 40% 60%;
-  gap: 1rem;
+#which-city-text{
+    font-size: 1rem;
+    color:gray;
 }
-
 #city-image {
   height: 85%;
   width: 80%;
