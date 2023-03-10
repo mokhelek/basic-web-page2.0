@@ -142,7 +142,7 @@ nav a:hover{
 /* ********************************************     Foreign Language section    **********************************************  */
 
 #foreign-language{
-    height:700px;
+    height:600px;
     background: linear-gradient(
         45deg,
         rgb(0, 28, 170) 0%,
@@ -180,7 +180,7 @@ table{
 /*   ########################################## Historical Places Section ##########################################   */
 
 #historic-places-section{
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(255, 255, 255);
     padding-bottom: 2rem;
     width: 100%;
     overflow-x: hidden;
@@ -189,13 +189,6 @@ table{
 #historical-places-container{
     padding: 0 3rem 0 3rem;
 }
-
-/* .grid-container-historical-places{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    gap: 1rem;
-} */
 
 .grid-container1{
     grid-template-areas: "col1 col2";
@@ -225,20 +218,24 @@ table{
 }
 
 #historic-place-title{
-    color:rgba(58, 0, 64, 0.641);
+    color:rgba(12, 13, 57, 0.574);
     font-size: 1.1rem;
 }
 
 #historic-place-text li {
     font-size:0.85rem;
     margin-bottom: 6px;
-    color:gray;
-}
-#historic-place-text{
-    margin-left:20px
+    color:rgba(244, 73, 73, 0.757);
 }
 
-/*   ########################################## Media Quaries ##########################################   */
+#historic-place-text li span{
+    color:#727272;
+}
+#historic-place-text{
+    margin-left:5px
+}
+
+/*   ########################################## Media Queries ##########################################   */
 
 
 @media screen and (max-width:450px) {
