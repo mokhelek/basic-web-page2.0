@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-body{
-    overflow-x: hidden;
-    width: 100%;
-    height: 100%; 
-    margin: 0cm !important;
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0cm !important;
 }
 
 li,
@@ -21,57 +21,53 @@ button {
   font-family: "Poppins", sans-serif;
 }
 
-header{
-    height: 50px;
-   
+header {
+  height: 50px;
 }
-nav ul{
-    margin:1rem;
-    padding: 0;
-    list-style: none;
-    margin-left: 1rem;
+nav ul {
+  margin: 1rem;
+  padding: 0;
+  list-style: none;
+  margin-left: 1rem;
 }
 
-nav li{
-    float:left !important;
-  
-    color:rgb(243, 236, 255);
-    padding: 5px 5px 5px 5px;
-}
-nav a{
-    display: block;
-    padding: 10px;
-    color:rgb(218, 218, 218);
-    text-decoration: none;
-}
-nav a:hover{
+nav li {
+  float: left !important;
 
-    color:#ff58bf;
+  color: rgb(243, 236, 255);
+  padding: 5px 5px 5px 5px;
+}
+nav a {
+  display: block;
+  padding: 10px;
+  color: rgb(218, 218, 218);
+  text-decoration: none;
+}
+nav a:hover {
+  color: #ff58bf;
 }
 
 #web2 {
-    font-size: 1.1rem;
-    margin-top: 10px;
-    margin-left: 15px;
-    font-weight: 600;
-    text-decoration: none;
-    color: #c5c5c5;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #c5c5c5;
 }
-#web2:hover{
-    color:rgb(233, 88, 113) !important;
-    font-size: 1.2rem;
+#web2:hover {
+  color: rgb(233, 88, 113) !important;
+  font-size: 1.2rem;
 }
 
-#logo{
-    margin-left:4%;
-    font-size: 1.3rem;
-    color:rgb(255, 96, 122);
-    font-weight: 400;
+#logo {
+  margin-left: 4%;
+  font-size: 1.3rem;
+  color: rgb(255, 96, 122);
+  font-weight: 400;
 }
 
 /* ********************************************     The intro section    **********************************************  */
-
-
 
 #profile_image {
   height: 250px;
@@ -115,12 +111,12 @@ nav a:hover{
   border-radius: 25px;
 }
 
-#cta_button:hover{
-    background: linear-gradient(
-        45deg,
-        rgb(224, 45, 248) 0%,
-        rgb(250, 219, 45) 100%
-      );
+#cta_button:hover {
+  background: linear-gradient(
+    45deg,
+    rgb(224, 45, 248) 0%,
+    rgb(250, 219, 45) 100%
+  );
 }
 
 /*  *********************************************   Which City Section  ********************************************  */
@@ -129,9 +125,9 @@ nav a:hover{
   padding: 2rem;
   overflow-x: hidden;
 }
-#which-city-text{
-    font-size: 1rem;
-    color:gray;
+#which-city-text {
+  font-size: 1rem;
+  color: gray;
 }
 #city-image {
   height: 85%;
@@ -141,150 +137,141 @@ nav a:hover{
 
 /* ********************************************     Foreign Language section    **********************************************  */
 
-#foreign-language{
-    height:600px;
-    background: linear-gradient(
-        45deg,
-        rgb(0, 28, 170) 0%,
-        rgb(248, 45, 214) 100%
-      );
+#foreign-language {
+  height: 600px;
+  background: linear-gradient(
+    45deg,
+    rgb(0, 28, 170) 0%,
+    rgb(248, 45, 214) 100%
+  );
 }
 
-tr{
-    margin:1rem;
+tr {
+  margin: 1rem;
 }
 
-td{
-    padding: 0.4rem;
-    border-bottom: 1px rgba(255, 255, 255, 0.291) solid ;
-   
+td {
+  padding: 0.4rem;
+  border-bottom: 1px rgba(255, 255, 255, 0.291) solid;
 }
-td p{
-    margin: 0cm;
-    color:rgb(177, 177, 177);
+td p {
+  margin: 0cm;
+  color: rgb(177, 177, 177);
 }
-table{
-    /* border-radius: 8px; */
-    background-color:  rgba(154, 1, 209, 0.324);
-    border: 3px rgba(255, 6, 172, 0.257) solid;
-    padding: 2rem;
+table {
+  /* border-radius: 8px; */
+  background-color: rgba(154, 1, 209, 0.324);
+  border: 3px rgba(255, 6, 172, 0.257) solid;
+  padding: 2rem;
 }
-#table-heading{
-    background-color: rgba(0, 128, 255, 0.167) !important;
-    border: none !important;
+#table-heading {
+  background-color: rgba(0, 128, 255, 0.167) !important;
+  border: none !important;
 }
-#table-heading td h4{
-    color:rgba(220, 220, 220, 0.776);
+#table-heading td h4 {
+  color: rgba(220, 220, 220, 0.776);
 }
 
 /*   ########################################## Historical Places Section ##########################################   */
 
-#historic-places-section{
-    background-color: rgb(255, 255, 255);
-    padding-bottom: 2rem;
-    width: 100%;
-    overflow-x: hidden;
+#historic-places-section {
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 2rem;
+  width: 100%;
+  overflow-x: hidden;
 }
 
-#historical-places-container{
-    padding: 0 3rem 0 3rem;
+#historical-places-container {
+  padding: 0 3rem 0 3rem;
 }
 
-.grid-container1{
-    grid-template-areas: "col1 col2";
-    grid-template-columns: 60% 40% !important;
-    gap: 10px;
+.grid-container1 {
+  grid-template-areas: "col1 col2";
+  grid-template-columns: 60% 40% !important;
+  gap: 10px;
 }
 
-.grid-container2{
-
-    grid-template-columns: 1fr 1fr !important;
-    grid-template-areas: "col1 col2";
-    gap: 10px;
+.grid-container2 {
+  grid-template-columns: 1fr 1fr !important;
+  grid-template-areas: "col1 col2";
+  gap: 10px;
 }
 
-.grid-container3{
-    /* display: grid; */
-    grid-template-areas: "col1 col2";
-    grid-template-columns: 60% 40% !important;
-    gap: 10px;
-
+.grid-container3 {
+  /* display: grid; */
+  grid-template-areas: "col1 col2";
+  grid-template-columns: 60% 40% !important;
+  gap: 10px;
 }
 
-#historic-place-image{
-    width: 100%;
-    border-radius: 8px;
-    border: 2px rgba(216, 0, 169, 0.445) solid;
+#historic-place-image {
+  width: 100%;
+  border-radius: 8px;
+  border: 2px rgba(216, 0, 169, 0.445) solid;
 }
 
-#historic-place-title{
-    color:rgba(12, 13, 57, 0.574);
-    font-size: 1.1rem;
+#historic-place-title {
+  color: rgba(12, 13, 57, 0.574);
+  font-size: 1.1rem;
 }
 
 #historic-place-text li {
-    font-size:0.85rem;
-    margin-bottom: 6px;
-    color:rgba(244, 73, 73, 0.757);
+  font-size: 0.85rem;
+  margin-bottom: 6px;
+  color: rgba(244, 73, 73, 0.757);
 }
 
-#historic-place-text li span{
-    color:#727272;
+#historic-place-text li span {
+  color: #727272;
 }
-#historic-place-text{
-    margin-left:5px
+#historic-place-text {
+  margin-left: 5px;
 }
 
 /*   ########################################## Media Queries ##########################################   */
 
-
-@media screen and (max-width:450px) {
-    #intro-container{
-        margin: 1rem !important;
-        margin-right: 3rem !important;
-    }
-    .container{
-        padding-right: 4rem !important;
-        padding-left: 0rem !important;
-    }
+@media screen and (max-width: 450px) {
+  #intro-container {
+    margin: 1rem !important;
+    margin-right: 3rem !important;
+  }
+  .container {
+    padding-right: 4rem !important;
+    padding-left: 0rem !important;
+  }
 }
-@media screen and (max-width:650px) {
-    #foreign-language-wrapper{
-        width:97% !important;
-    }
-    #city-image{
-        width: 100% !important;
-    }
-    #my_name{
-        font-size: 2rem;
-    }
-    #my-name-wrapper{
-        display: flex;
-        justify-content: center;
-    }
-    #historical-places-container{
-        padding: 0 1.5rem 0 1.5rem;
-    }
-
- 
+@media screen and (max-width: 650px) {
+  #foreign-language-wrapper {
+    width: 97% !important;
+  }
+  #city-image {
+    width: 100% !important;
+  }
+  #my_name {
+    font-size: 2rem;
+  }
+  #my-name-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  #historical-places-container {
+    padding: 0 1.5rem 0 1.5rem;
+  }
 }
 
 @media screen and (max-width: 900px) {
   .grid-container {
     grid-template-columns: 1fr;
-
   }
-  #my-name-wrapper{
+  #my-name-wrapper {
     margin-top: 3rem;
   }
-
 
   .grid-container-which-city {
     grid-template-columns: 1fr;
   }
 
-
-  #foreign-language-wrapper{
+  #foreign-language-wrapper {
     padding: 0rem 1rem 0rem 1rem !important;
   }
 }
@@ -293,71 +280,66 @@ table{
   #intro-section {
     align-items: start !important;
   }
-  
-
 }
 
-@media screen and (max-width:950px) {
-    .grid-container-historical-places {
-        grid-template-columns: 1fr;
-        margin-top: 20px;
-      }
+@media screen and (max-width: 950px) {
+  .grid-container-historical-places {
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
 
-      .grid-container1{
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: "col1 col2";
-    }
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "col1 col2";
+  }
 
-      .grid-container2{
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: "col2 col1";
-    }
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "col2 col1";
+  }
 
-    .grid-container3{
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: "col1 col2";
-    }
+  .grid-container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "col1 col2";
+  }
 
+  .grid-item1-1 {
+    grid-area: col1;
+  }
+  .grid-item1-2 {
+    grid-area: col2;
+  }
 
-    .grid-item1-1{
-        grid-area: col1;
-    }
-    .grid-item1-2{
-        grid-area: col2;
-    }
+  .grid-item2-1 {
+    grid-area: col1;
+  }
+  .grid-item2-2 {
+    grid-area: col2;
+  }
 
-    .grid-item2-1{
-        grid-area: col1;
-    }
-    .grid-item2-2{
-        grid-area: col2;
-    }
+  .grid-item3-1 {
+    grid-area: col1;
+  }
+  .grid-item3-2 {
+    grid-area: col2;
+  }
 
-    .grid-item3-1{
-        grid-area: col1;
-    }
-    .grid-item3-2{
-        grid-area: col2;
-    }
-
-
-    #historic-place-image{
-        width:100%;
-    }
-  
+  #historic-place-image {
+    width: 100%;
+  }
 }
-@media screen and (min-width:951px){
-    .grid-container2{
-        grid-template-columns: 1fr 1fr !important;
-    }
-    .grid-container1{
-        grid-template-columns: 1fr 1fr !important;
-    }
+@media screen and (min-width: 951px) {
+  .grid-container2 {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .grid-container1 {
+    grid-template-columns: 1fr 1fr !important;
+  }
 
-    .grid-container3{
-        grid-template-columns: 1fr 1fr !important;
-    }
+  .grid-container3 {
+    grid-template-columns: 1fr 1fr !important;
+  }
 }
